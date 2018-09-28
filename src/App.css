@@ -1,0 +1,36 @@
+.logo {
+  display: block;
+  width: 100px;
+  margin: 0 auto; }
+  .logo__image {
+    display: block;
+    width: 100%;
+    height: auto; }
+
+.list-dogs {
+  width: 100%;
+  max-width: 200px;
+  margin: 50px auto; }
+  .list-dogs__title {
+    text-align: center; }
+  .list-dogs__list {
+    margin-top: 2em; }
+
+.card-dog {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-grow: 0;
+  margin-top: 50px; }
+  .card-dog__title {
+    text-align: center; }
+  .card-dog__image-container {
+    text-align: center; }
+  .card-dog__image {
+    display: inline-block;
+    width: 600px;
+    height: auto; }
+
+.pagination-container {
+  display: flex;
+  justify-content: center; }

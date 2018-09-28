@@ -1,0 +1,53 @@
+.logo {
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+
+  &__image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.list-dogs {
+  width: 100%;
+  max-width: 200px;
+  margin: 50px auto;
+
+  &__title {
+    text-align: center;
+  }
+
+  &__list {
+    margin-top: 2em;
+  }
+}
+
+.card-dog {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-grow: 0;
+
+  margin-top: 50px;
+
+  &__title {
+    text-align: center;
+  }
+
+  &__image-container {
+    text-align: center;
+  }
+
+  &__image {
+    display: inline-block;
+    width: 600px;
+    height: auto;
+  }
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+}
